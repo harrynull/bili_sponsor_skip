@@ -14,7 +14,7 @@
 (function () {
     'use strict';
 
-    var BASE_URL = "http://127.0.0.1:8000/";
+    var BASE_URL = "https://harrynull.tech/bilisponsor/";
 
     function log(...args) {
         console.log('%c[Bilibili Sponsor Skip Userscript]', 'background: #ffc0cb; color: #000', ...args);
