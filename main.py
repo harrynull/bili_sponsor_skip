@@ -123,7 +123,7 @@ def save_ads_to_db(subtitle_sha256: str, ads: list[Ad]):
     """
     Save ads to the database by subtitle SHA256 hash.
     """
-    store[subtitle_sha256] = json.dumps(ads)
+    store[subtitle_sha256] = json.dumps([ad.model_dump() for ad in ads])
 
 
 app.add_middleware(
