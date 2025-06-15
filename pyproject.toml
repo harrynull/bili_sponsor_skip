@@ -1,0 +1,11 @@
+[project]
+name = "bili_sponsor_skip"
+version = "0.1.0"
+description = "Backend server to skip sponsor segments in Bilibili videos"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "instructor>=1.8.3",
+    "python-dotenv>=1.1.0",
+]
